@@ -2,7 +2,17 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Roboto", 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Bitter", sans-serif;
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+$base-font-family: "Segoe UI", "Roboto", 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', "Bitter", sans-serif;
 $base-font-size: 18px !default;
 $base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.85 !default;
