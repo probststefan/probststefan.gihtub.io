@@ -43,8 +43,9 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
